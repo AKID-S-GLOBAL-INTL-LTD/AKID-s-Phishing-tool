@@ -1,0 +1,66 @@
+{
+  "campaigns": [
+    {
+      "id": "demo0001",
+      "name": "IT Helpdesk Reset",
+      "target_domain": "akid-test.local",
+      "template": "",
+      "clone_file": "",
+      "targets": 30,
+      "status": "active",
+      "created": "2026-04-07T07:42:33Z",
+      "track_url": "/sim/demo0001"
+    },
+    {
+      "id": "demo0002",
+      "name": "VPN Credential Test",
+      "target_domain": "vpn.akid-test.local",
+      "template": "",
+      "clone_file": "",
+      "targets": 15,
+      "status": "draft",
+      "created": "2026-04-07T07:42:33Z",
+      "track_url": "/sim/demo0002"
+    },
+    {
+      "id": "13f8d032",
+      "name": "Test Camp",
+      "target_domain": "",
+      "template": "",
+      "clone_file": "",
+      "targets": 10,
+      "status": "draft",
+      "created": "2026-04-07T07:42:39Z",
+      "track_url": "/sim/13f8d032"
+    }
+  ],
+  "templates": [],
+  "events": [
+    {
+      "id": "ce2375dc",
+      "cid": "demo0001",
+      "type": "click",
+      "ip": "a1b2c3d4",
+      "ua": "Mozilla/5.0 (Windows NT 10.0)",
+      "ts": "2026-04-07T07:42:33Z"
+    },
+    {
+      "id": "6185966d",
+      "cid": "demo0001",
+      "type": "click",
+      "ip": "e5f6a7b8",
+      "ua": "Mozilla/5.0 (Macintosh)",
+      "ts": "2026-04-07T07:42:33Z"
+    },
+    {
+      "id": "066c6ee5",
+      "cid": "demo0001",
+      "type": "submit",
+      "fields": [
+        "username",
+        "password"
+      ],
+      "ts": "2026-04-07T07:42:33Z"
+    }
+  ]
+}
